@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("img/Desktop\ -\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 100;
+}
+
+.nav {
+  width: 100%;
+  height: 100px;
+}
+
+.con-nav {
+  width: 1400px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.con-nav p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.con-nav img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.con-main {
+  width: 1400px;
+  height: 1000px;
+  margin: 0 auto;
+  padding: 0 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.main1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main11 {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+.con-p-main11 {
+  display: flex;
+  flex-direction: column;
+}
+
+.con-p-main11 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.con-p-main11 span {
+  opacity: 0.7;
+}
+
+.kotak-main11 {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  background-color: rgba(239, 242, 251, 1);
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.kotak-main11 i {
+  font-size: 18px;
+  color: rgb(115, 115, 177);
+}
+
+.main12 {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  overflow-y: scroll;
+}
+
+.con-main12-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 150px;
+  margin: 20px 0;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.con-main12-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.con-p-main12 {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.con-p-main12 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.con-p-main12 span {
+  opacity: 0.6;
+  font-size: 15px;
+}
+
+.con-ip-main12 {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  gap: 10px;
+}
+
+.con-ip-main12 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.con-ip-main12 i {
+  font-size: 30px;
+  color: rgba(26, 213, 152, 1);
+}
+
+.main2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.p1-main2 {
+  font-size: 80px;
+  width: 100%;
+  text-align: center;
+  color: rgba(16, 106, 243, 1);
+  font-weight: 500;
+}
+
+.kotak-main2 {
+  width: 80%;
+  height: 100px;
+  background-color: rgba(16, 106, 243, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 20px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.kotak-main2 p {
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.text-main2 {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.isi1 {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  margin: 10px 0;
+  cursor: pointer;
+  padding: 5px 20px;
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.isi1 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.isi1 i {
+  font-size: 25px;
+  color: rgba(16, 106, 243, 1);
+}
+
+.isi2 {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  margin: 10px 0;
+  padding: 5px 20px;
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.isi2 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.isi3 {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  margin: 10px 0;
+  padding: 5px 20px;
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.isi3 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.isi3 i {
+  font-size: 30px;
+  color: rgba(16, 106, 243, 1);
+}
+
+.isi4 {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  margin: 10px 0;
+  padding: 5px 20px;
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.isi4 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.isi5 {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  margin: 10px 0;
+  padding: 5px 20px;
+  background-color: rgba(245, 245, 245, 1);
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+.isi5 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.isi5 i {
+  font-size: 25px;
+  color: rgba(16, 106, 243, 1);
+}
+
+@media only screen and (max-width: 668px) {
+  nav,
+  .nav,
+  .con-nav {
+    width: 100%;
+  }
+  .con-nav {
+    height: 80px;
+    padding: 0 20px;
+  }
+  .con-nav p {
+    font-size: 22px;
+  }
+  .con-nav img {
+    width: 40px;
+    height: 40px;
+  }
+  main,
+  .con-main {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .con-main {
+    padding: 0 20px;
+  }
+  .main1 {
+    width: 100%;
+    height: auto;
+  }
+  .main11 {
+    gap: 10px;
+  }
+  .con-p-main11 p {
+    font-size: 18px;
+  }
+  .kotak-main11 {
+    width: auto;
+    height: 50px;
+    gap: 10px;
+    padding: 0 10px;
+  }
+  .con-main12-item img {
+    width: 75px;
+    height: 75px;
+  }
+  .con-p-main12 p {
+    font-size: 18px;
+  }
+  .con-ip-main12 p {
+    font-size: 20px;
+  }
+  .con-ip-main12 i {
+    font-size: 20px;
+  }
+  .main2 {
+    width: 100%;
+  }
+  .p1-main2 {
+    font-size: 28px;
+  }
+  .kotak-main2 {
+    width: 100%;
+    height: 60px;
+    gap: 10px;
+  }
+  .kotak-main2 p {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+  }
+  .kotak-main2 img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media only screen and (min-width: 668px) and (max-width: 1140px) {
+  nav,
+  .nav,
+  .con-nav {
+    width: 100%;
+  }
+  .con-nav {
+    padding: 0 35px;
+  }
+  main,
+  .con-main {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .con-main {
+    padding: 0 35px;
+  }
+  .main1 {
+    width: 100%;
+    height: auto;
+  }
+  .main2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1140px) and (max-width: 1400px) {
+  nav,
+  .nav,
+  .con-nav {
+    width: 100%;
+  }
+  main,
+  .con-main {
+    width: 100%;
+    height: auto;
+  }
+  .kotak-main2 p {
+    font-size: 32px;
+  }
+  .kotak-main2 img {
+    width: 40px;
+    height: 40px;
+  }
+}
